@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { UserCircle2, Globe2, Users, Store, CreditCard } from "lucide-react";
+
 import menuItems from "../assets/MenuItems";
 import AgentData from "../components/AgentData";
 import TravelHub from "../components/TravelHub";
@@ -11,8 +11,8 @@ const AgentDashboard = () => {
 
   const loggedAgent = {
     id: "AG007",
-    name: "Azlan Jamshed",
-    email: "azlan@gen2de.com",
+    name: "Travel Agent",
+    email: "travel@agent.com",
     location: "Bhopal, India",
     rating: 4.9,
     totalBookings: 128,
